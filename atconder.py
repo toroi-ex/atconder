@@ -51,3 +51,52 @@
 #         val = val - ab[i][0]*(x - m)
 #         break
 # print(val)
+
+#123 B
+# a = []
+# b = [0]
+# ans = 0
+
+# for i in range(5):
+#     A = int(input())
+#     B = A % 10
+#     if B != 0:
+#         A = A + (10 - B)
+#         b.append(B)
+#     a.append(A)
+# if sorted(set(b))[1] != 0:
+#     ans = sum(a) - (10 - sorted(set(b))[1])
+# else:
+#     ans = sum(a)
+
+# print(ans)
+
+#123 C
+# import math
+# n = int(input())
+# a = [int(input()) for _ in range(5)]
+# print(4+math.ceil(n / min(a)))
+
+#125 A
+# n, k = map(int, input().split())
+# S = input()
+
+# s = S[:k-1] + S[k-1].lower() + S[k:]
+# print(s)
+
+#125 B
+# s = input()
+# s1 = int(s[0:2])
+# s2 = int(s[2:])
+
+# if s1 > 0 and s1 < 13:
+#     if s2 > 0 and s2 < 13:
+#         print("AMBIGUOUS")
+#     else:
+#         print("MMYY")
+# else:
+#     if s2 > 0 and s2 < 13:
+#         print("YYMM")
+#     else:
+#         print("NA")
+
