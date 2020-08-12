@@ -100,3 +100,13 @@
 #     else:
 #         print("NA")
 
+#125 C
+# n, k = map(int, input().split())
+# ans = 0
+# for i in range(1,n + 1):
+#     a = 0
+#     while i < k:
+#         i *= 2
+#         a += 1
+#     ans += 1/n * (1/2)**a
+# print(ans)
