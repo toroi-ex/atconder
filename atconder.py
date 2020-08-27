@@ -110,3 +110,31 @@
 #         a += 1
 #     ans += 1/n * (1/2)**a
 # print(ans)
+
+#129 A
+# x, a = map(int, input().split())
+# if x < a:
+#     print(0)
+# else:
+#     print(10)
+
+#129 B
+# n, x = map(int, input().split())
+# L = list(map(int, input().split()))
+# val = 0
+# count = 1
+
+# for l in L:
+#     val += l
+#     if val <= x:
+#         count += 1
+# print(count)
+
+#129 C
+# w, h , x, y = map(int, input().split())
+# area = w * h / 2
+# m = 0
+# if x * 2 == w and y * 2 == h:
+#     m = 1
+
+# print(area, m)
