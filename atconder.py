@@ -140,14 +140,26 @@
 # print(area, m)
 
 #136 C
-n = int(input())
-h = list(map(int, input().split()))
-val = 0
-for i in range(n):
-    if val > h[i]:
-        print("No")
-        quit()
-    else:
-        val = max(val, h[i] - 1)
+# n = int(input())
+# h = list(map(int, input().split()))
+# val = 0
+# for i in range(n):
+#     if val > h[i]:
+#         print("No")
+#         quit()
+#     else:
+#         val = max(val, h[i] - 1)
 
-print("Yes")
+# print("Yes")
+
+#137 A
+# a, b = map(int, input().split())
+# ans = max(a+b, a-b, a*b)
+# print(ans)
+
+#137 B
+# k, x = map(int, input().split())
+# ans = []
+# for i in range(x-k+1,x+k):
+#     ans.append(i)
+# print(*ans)
