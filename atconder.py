@@ -163,3 +163,13 @@
 # for i in range(x-k+1,x+k):
 #     ans.append(i)
 # print(*ans)
+
+#139 B
+# import math
+# a, b = map(int, input().split())
+
+# ans = math.ceil((b-1)/(a-1))
+# print(ans)
+
+
+
